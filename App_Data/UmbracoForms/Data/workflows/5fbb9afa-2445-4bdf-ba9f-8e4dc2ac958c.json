@@ -1,0 +1,18 @@
+{
+  "id": "5fbb9afa-2445-4bdf-ba9f-8e4dc2ac958c",
+  "name": "Send template email to koskarbengtsson@gmail.com",
+  "form": "9bd77f9c-85e7-4a6a-93b2-71e23a4b3926",
+  "active": true,
+  "includeSensitiveData": "False",
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "koskarbengtsson@gmail.com",
+    "SenderEmail": "",
+    "ReplyToEmail": "",
+    "Subject": "The Form '{form_name}' was submitted",
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}

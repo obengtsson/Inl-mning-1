@@ -5,4 +5,7 @@
 }
 @Html.Partial("~/Views/Partials/SectionHeader.cshtml")
 <section class="section">
+    <h2>@Model.Value("pageTitle")</h2>
+    <p>@Model.Value("contactFormHeader")</p>
+    <p>@Model.Value("contactIntro")</p>
 </section>
